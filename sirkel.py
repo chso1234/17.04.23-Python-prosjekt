@@ -10,7 +10,7 @@ def lol(lols):
 
 def arealregning(radius):
     pi = math.pi
-    areal = radius**radius * pi
+    areal = radius **2 * pi
     return areal
 
 
