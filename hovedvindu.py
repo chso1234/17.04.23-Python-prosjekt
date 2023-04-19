@@ -7,8 +7,11 @@ root = tk.Tk()
 label_temp = tk.Label(root, text="Skriv inn temperatur i Celsius:")
 label_temp.pack()
 
+label_temp2 = tk.Label(root, text= "Skriv inn temperatur i fahrenheit:")
+label_temp2.pack()
+
 # Lag tekstboks for temperatur-input
-entry_temp = tk.Entry(root)
+entry_temp = tk.Entry(root,)
 entry_temp.pack()
 
 # Lag etikett for konverteringsresultat
