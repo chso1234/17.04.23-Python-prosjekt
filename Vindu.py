@@ -9,6 +9,14 @@ root.title("Temperaturkonvertering")
 label_celsius = tk.Label(root, text="Skriv inn temperatur i Celsius:")
 label_celsius.pack()
 
+<<<<<<< HEAD
+label_temp2 = tk.Label(root, text= "Skriv inn temperatur i fahrenheit:")
+label_temp2.pack()
+
+# Lag tekstboks for temperatur-input
+entry_temp = tk.Entry(root,)
+entry_temp.pack()
+=======
 # Lag tekstboks for Celsius-input
 entry_celsius = tk.Entry(root, width=20, justify="center")
 entry_celsius.pack(pady=10)
@@ -24,6 +32,7 @@ entry_fahrenheit = tk.Entry(root, width=20, justify="center")
 entry_fahrenheit.pack(pady=10)
 entry_fahrenheit.insert(0, "Skriv inn Fahrenheit-temperatur")
 entry_fahrenheit.bind("<FocusIn>", lambda event: entry_fahrenheit.delete(0, tk.END))
+>>>>>>> eaecdda544531d6cd3edd4fb98520cc3699c35c7
 
 # Lag etikett for konverteringsresultat
 label_result = tk.Label(root, text="")
