@@ -8,26 +8,12 @@ root = tk.Tk()
 label_celsius = tk.Label(root, text="Skriv inn temperatur i Celsius:")
 label_celsius.pack()
 
-<<<<<<< HEAD
 label_temp2 = tk.Label(root, text= "Skriv inn temperatur i fahrenheit:")
 label_temp2.pack()
 
 # Lag tekstboks for temperatur-input
 entry_temp = tk.Entry(root,)
 entry_temp.pack()
-=======
-# Lag tekstboks for Celsius-input
-entry_celsius = tk.Entry(root)
-entry_celsius.pack()
-
-# Lag etikett for Fahrenheit-input
-label_fahrenheit = tk.Label(root, text="Skriv inn temperatur i Fahrenheit:")
-label_fahrenheit.pack()
-
-# Lag tekstboks for Fahrenheit-input
-entry_fahrenheit = tk.Entry(root)
-entry_fahrenheit.pack()
->>>>>>> 15225ebd407925d944142b4c0b94c83a7feb4f4b
 
 # Lag etikett for konverteringsresultat
 label_result = tk.Label(root, text="")
